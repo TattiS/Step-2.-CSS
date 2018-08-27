@@ -1,0 +1,237 @@
+.task1, .task2, .task3, .task4, .task5, .task6, .task7, .task8{
+				margin-top: 5em;
+				text-align: center;
+			}
+			
+			.circle{
+				width:12em;
+				height:12em;
+				background: transparent;
+				margin-left: calc(50% - 5em);
+				border:1.8em solid #3e078c;
+				border-radius: 50%;
+				border-right: 1.8em solid #5cd108;
+				line-height: 12em;
+			}
+			
+			.text-in-circle{
+				margin: 0 auto;
+				font-size: 2em;
+				font-weight:bolder; 
+			}
+			
+			.content h4{
+				margin-right:10em;
+			}
+			
+			.fomula{
+				font-style: italic;
+				font-size: 2em;
+			}
+			
+			.super-index {
+				position: relative;
+				bottom: 0.4em;
+				left: 0.8em;
+				vertical-align: top;
+
+			}
+			
+			.sub-index{
+				position: relative;
+				top: 0.7em;
+				right: 1.2em;
+			}
+			
+			.super-index2 {
+				position: relative;
+				bottom: 0.1em;
+				left: 0.2em;
+				vertical-align: top;
+			}
+			
+			.sub-index2{
+				position: relative;
+				top: 0.2em;
+				right: 0.3em;
+			}
+			
+			.brackets{
+				font-size: 1.5em;
+				font-style: normal;
+			}
+			
+			.progress-bar{
+				width:100%;
+				height:1.3em;
+				background: #40423f;
+				background: linear-gradient(to top, #959799, #40423f);
+				border:1px solid black;
+				border-radius: 1.2em;
+			}
+			
+			.process-progress{
+				margin:0;
+				width:15%;
+				height:1.3em;
+				border-radius: 1.2em;
+				background: #067bc9;
+				background: linear-gradient(to top, #1c9bef, #067bc9);
+				transition: width 2s ease-out 0.2s;
+			}
+			
+			.progress-bar:hover .process-progress{
+				width:99.99%;
+			}
+			
+			.slides {
+			    padding: 0;
+			    width: 609px;
+			    height: 420px;
+			    display: block;
+			    margin: 0 auto;
+			    position: relative;
+			}
+			.slides input { display: none; }
+
+			.slide-container { display: block; }
+
+			.slide {
+			    top: 0;
+			    opacity: 0;
+			    width: 609px;
+			    height: 420px;
+			    display: block;
+			    position: absolute;
+			    transform: scale(0);
+			}
+
+			.slide img {
+			    width: 100%;
+			    height: 100%;
+			}
+
+			input:checked + .slide-container  .slide {
+			    opacity: 1;
+			    transform: scale(1);
+			}
+
+			.nav-dots {
+				width: 100%;
+				bottom: 9px;
+				height: 11px;
+				display: block;
+				position: absolute;
+				text-align: center;
+			}
+
+			.nav-dots .nav-dot {
+				top: -5px;
+				width: 11px;
+				height: 11px;
+				margin: 0 4px;
+				position: relative;
+				border-radius: 100%;
+				display: inline-block;
+				background-color: rgba(0, 0, 0, 0.6);
+			}
+
+			.nav-dots .nav-dot:hover {
+				cursor: pointer;
+				background-color: rgba(155, 27, 7, 0.8);
+			}
+
+			input#img-1:checked ~ .nav-dots label#img-dot-1,
+			input#img-2:checked ~ .nav-dots label#img-dot-2,
+			input#img-3:checked ~ .nav-dots label#img-dot-3,
+			input#img-4:checked ~ .nav-dots label#img-dot-4,
+			input#img-5:checked ~ .nav-dots label#img-dot-5,
+			input#img-6:checked ~ .nav-dots label#img-dot-6 {
+				background: rgba(155, 27, 7, 0.95);
+			}
+			table.game-field {
+				border-collapse: collapse;
+				text-align: center;
+			}
+			td {
+				width:30px;
+				height:30px;
+				border:1px solid black;
+				border-collapse: collapse;
+			}
+			
+			.first-column{
+				width:30px;
+				height:30px;
+				border:none;
+				font-weight: bold;
+			}
+			
+			.bar{
+				width:40%;
+				height:2.2em;
+				background: #40423f;
+				color:white;
+				margin:auto;
+				position:relative;
+				border-radius: 5px;
+			}
+			
+			.rank{
+				width:20%;
+				height:2.2em;
+				line-height: 2.2em;
+				position:absolute;
+				left: 0;
+				background:#3d9b07;
+				border-radius: 5px 0px 0px 5px;
+			}
+			.rank p{
+				margin: 0;
+			}
+			
+			.rank-btns{
+				width:20%;
+				position: absolute;
+				right: 0;
+				line-height: 2.2em;
+			}
+			
+			.plus-btn, .minus-btn{
+				width: 1.5em;
+				height: 1.5em;
+				border-radius: 5px;
+				border:none;
+				text-align: center;
+			}
+
+			.plus-btn{
+				color: white;
+				background-color: #3d9b07;
+				
+			}
+
+			.minus-btn{
+				color: white;
+				background-color: red;
+
+			}
+
+			.forcast{
+				margin: 60px 0;
+			}
+
+			.forcast td{
+				border:none;
+			}
+
+			.forcast th{
+				color:white;
+				background-color:#2ae0c5;
+				text-align: center; 
+				border:none;
+			}
+
+			.h3{
+				font-weight: bold;
+			}
